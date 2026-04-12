@@ -16,11 +16,11 @@ class IntroScene extends Phaser.Scene {
         }).setOrigin(0.5);
 
         const story = `
-En una ciudad dominada por las verbenas...
+En una ciudad dominada por las reviews...
 
 Pepito, gestor legendario de Airbnbs,
 se enfrenta a huéspedes imposibles.
- 
+
 Albacete exige papel higiénico.
 La madre quiere vino.
 Las parejas gay... dinero.
@@ -89,7 +89,7 @@ class GameScene extends Phaser.Scene {
     preload() {
         this.load.image('background', 'assets/fondo1.png');
 
-        this.load.image('player', 'assets.png');
+        this.load.image('player', 'assets/pepito.png');
         this.load.image('playerShoot', 'assets/pepito2.png');
 
         this.load.image('ground', 'https://labs.phaser.io/assets/sprites/platform.png');
